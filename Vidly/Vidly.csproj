@@ -201,11 +201,20 @@
     <Compile Include="Migrations\202010142235234_InitialModels.designer.cs">
       <DependentUpon>202010142235234_InitialModels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010142244414_AddIsScubsribedToCustomerTable.cs" />
+    <Compile Include="Migrations\202010142244414_AddIsScubsribedToCustomerTable.designer.cs">
+      <DependentUpon>202010142244414_AddIsScubsribedToCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010142251226_AddMembershipTypeToCustomerTable.cs" />
+    <Compile Include="Migrations\202010142251226_AddMembershipTypeToCustomerTable.designer.cs">
+      <DependentUpon>202010142251226_AddMembershipTypeToCustomerTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -296,6 +305,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010142235234_InitialModels.resx">
       <DependentUpon>202010142235234_InitialModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010142244414_AddIsScubsribedToCustomerTable.resx">
+      <DependentUpon>202010142244414_AddIsScubsribedToCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010142251226_AddMembershipTypeToCustomerTable.resx">
+      <DependentUpon>202010142251226_AddMembershipTypeToCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
