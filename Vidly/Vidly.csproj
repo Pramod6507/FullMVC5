@@ -209,6 +209,10 @@
     <Compile Include="Migrations\202010142251226_AddMembershipTypeToCustomerTable.designer.cs">
       <DependentUpon>202010142251226_AddMembershipTypeToCustomerTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010142255212_PopulateMembeshipTypes.cs" />
+    <Compile Include="Migrations\202010142255212_PopulateMembeshipTypes.designer.cs">
+      <DependentUpon>202010142255212_PopulateMembeshipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -311,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010142251226_AddMembershipTypeToCustomerTable.resx">
       <DependentUpon>202010142251226_AddMembershipTypeToCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010142255212_PopulateMembeshipTypes.resx">
+      <DependentUpon>202010142255212_PopulateMembeshipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
