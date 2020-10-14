@@ -213,6 +213,10 @@
     <Compile Include="Migrations\202010142255212_PopulateMembeshipTypes.designer.cs">
       <DependentUpon>202010142255212_PopulateMembeshipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010142303590_AppliedDataAnnotationsToCustomerTable.cs" />
+    <Compile Include="Migrations\202010142303590_AppliedDataAnnotationsToCustomerTable.designer.cs">
+      <DependentUpon>202010142303590_AppliedDataAnnotationsToCustomerTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -318,6 +322,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010142255212_PopulateMembeshipTypes.resx">
       <DependentUpon>202010142255212_PopulateMembeshipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010142303590_AppliedDataAnnotationsToCustomerTable.resx">
+      <DependentUpon>202010142303590_AppliedDataAnnotationsToCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
