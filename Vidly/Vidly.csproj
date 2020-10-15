@@ -237,6 +237,10 @@
     <Compile Include="Migrations\202010150002356_AddedNewColumnsToMovieTable.designer.cs">
       <DependentUpon>202010150002356_AddedNewColumnsToMovieTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010150456392_PopulateGenretable.cs" />
+    <Compile Include="Migrations\202010150456392_PopulateGenretable.designer.cs">
+      <DependentUpon>202010150456392_PopulateGenretable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -361,6 +365,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010150002356_AddedNewColumnsToMovieTable.resx">
       <DependentUpon>202010150002356_AddedNewColumnsToMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010150456392_PopulateGenretable.resx">
+      <DependentUpon>202010150456392_PopulateGenretable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
